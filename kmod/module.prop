@@ -1,0 +1,6 @@
+id=kmod
+name=Linux kernel modules
+version=5.10.160-SupeChicken666
+versionCode=1
+author=SupeChicken666
+description=Linux kernel modules for kernel 5.10.160-SupeChicken666

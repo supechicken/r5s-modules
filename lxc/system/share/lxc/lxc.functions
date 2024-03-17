@@ -1,0 +1,12 @@
+# SPDX-License-Identifier: LGPL-2.1+
+
+# This file contains helpers for the various lxc shell scripts
+
+globalconf=/system/etc/lxc/lxc.conf
+bindir=/system/bin
+templatedir=/system/share/lxc/templates
+lxcinitdir=/system/libexec
+
+lxc_path=$(lxc-config lxc.lxcpath)
+lxc_vg=$(lxc-config lxc.bdev.lvm.vg)
+lxc_zfsroot=$(lxc-config lxc.bdev.zfs.root)

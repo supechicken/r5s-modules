@@ -1,0 +1,13 @@
+bindir=/system/bin
+libdir=/system/lib64
+localstatedir=/data/local/var
+includedir=/system/include
+rootfsmountdir=/system/lib64/lxc/rootfs
+
+Name: lxc
+Description: linux container tools
+Version: 4.0.12
+URL: http://linuxcontainers.org
+Libs: -L${libdir} -llxc -lutil -lpthread -ldl
+Libs.private:      
+Cflags: -I${includedir}
