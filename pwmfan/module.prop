@@ -1,0 +1,6 @@
+id=pwmfan
+name=PWM fan control
+version=1.1
+versionCode=1
+author=SupeChicken666
+description=Enable PWM fan control
